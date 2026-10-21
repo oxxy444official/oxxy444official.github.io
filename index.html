@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
+    <meta
+      name="description"
+      content="OXXY444 is an independent contemporary art platform for emerging artists, exhibitions, and collaboration."
+    />
+    <title>OXXY444</title>
+    <style>
+html,
+body {
+  margin: 0;
+  background: #f6f5f1;
+}
+      html.entered,
+      html.entered body {
+        background: #f6f5f1;
+      }
+    </style>
+    <script>
+      try {
+        var redirect = sessionStorage.redirect
+        delete sessionStorage.redirect
+        if (redirect && redirect.indexOf(location.origin) === 0) history.replaceState(null, "", redirect)
+      } catch (e) {}
+    </script>
+    <script type="module" crossorigin src="/assets/index-DhLXNJeo.js"></script>
+    <link rel="stylesheet" crossorigin href="/assets/index-Capbi_ek.css">
+  </head>
+  <body>
+    <div id="root"></div>
+  </body>
+</html>
